@@ -1,0 +1,231 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@100;200;300&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  left: 0;
+  right: 0;
+  font-family: 'IBM Plex Sans Arabic', sans-serif;
+  background-color: #ffffff;
+}
+
+.nav {
+  background-color: #24272B;
+  height: 120px;
+  width: 100%;
+}
+
+.logo {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.navlogo {
+  color: #ffffff;
+  font-size: 3em;
+}
+
+.navbar {
+  width: 100%;
+}
+
+.navtopics {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.navtopicsa {
+  color: #ffffff;
+  font-size: 1.2rem;
+}
+
+.navtopicsa a {
+  padding: 20px;
+}
+
+.btn {
+  background-color: #CC5F00;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  -webkit-box-shadow: 5px 5px #F18A45;
+          box-shadow: 5px 5px #F18A45;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 0.7;
+}
+
+.page1 {
+  width: 100%;
+}
+
+.page1video {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 50px;
+}
+
+.page-header__video {
+  width: 800px;
+}
+
+.water {
+  background-color: #24272B;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 90px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.water a {
+  font-size: 1.3em;
+}
+
+.doe {
+  color: #ffffff;
+}
+
+.water_org {
+  text-decoration: none;
+  color: #F18A45;
+}
+
+.bar {
+  background-color: #24272B;
+  height: 80px;
+  width: 100%;
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.news {
+  color: #ffffff;
+  letter-spacing: 4px;
+}
+
+.content {
+  width: 100%;
+}
+
+.maincontent {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.news1 {
+  padding: 10px;
+}
+
+#news img {
+  width: 300px;
+  height: 200px;
+}
+
+button {
+  font-family: inherit;
+  font-size: 20px;
+  background: royalblue;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 16px;
+  overflow: hidden;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+button span {
+  margin-left: 0.3em;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+button svg {
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+  -webkit-transition: -webkit-transform 0.3s ease-in-out;
+  transition: -webkit-transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+}
+
+button:hover .svg-wrapper {
+  -webkit-animation: fly-1 0.6s ease-in-out infinite alternate;
+          animation: fly-1 0.6s ease-in-out infinite alternate;
+}
+
+button:hover svg {
+  -webkit-transform: translateX(1.2em) rotate(45deg) scale(1.1);
+          transform: translateX(1.2em) rotate(45deg) scale(1.1);
+}
+
+button:hover span {
+  -webkit-transform: translateX(5em);
+          transform: translateX(5em);
+}
+
+button:active {
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+@-webkit-keyframes fly-1 {
+  from {
+    -webkit-transform: translateY(0.1em);
+            transform: translateY(0.1em);
+  }
+  to {
+    -webkit-transform: translateY(-0.1em);
+            transform: translateY(-0.1em);
+  }
+}
+
+@keyframes fly-1 {
+  from {
+    -webkit-transform: translateY(0.1em);
+            transform: translateY(0.1em);
+  }
+  to {
+    -webkit-transform: translateY(-0.1em);
+            transform: translateY(-0.1em);
+  }
+}
+/*# sourceMappingURL=style.css.map */
